@@ -6,20 +6,17 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header title="Title" scroll>
+        <Header title="Code Corner" scroll>
           <Navigation>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
+            <a href="#">Sign in</a>
+            <a href="#">Login</a>
           </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Menu">
           <Navigation>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">Python</a>
           </Navigation>
         </Drawer>
         <Content>
