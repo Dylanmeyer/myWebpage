@@ -19,9 +19,9 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header title="Code Corner" scroll>
+        <Header className="header-color" title="Code Corner" scroll>
           <Navigation>
-            <Link to="signIn">Sign in</Link>
+            <Link to="signIn">Register</Link>
             <Link to="login">Login</Link>
           </Navigation>
         </Header>
@@ -38,7 +38,7 @@ function App() {
         </Content>
         <Footer size="mega">
           <FooterSection type="middle">
-            <FooterDropDownSection title="Features">
+            <FooterDropDownSection className="footer-bottom" title="Features">
               <FooterLinkList>
                 <a href="#">About us</a>
                 <a href="#">Terms</a>
